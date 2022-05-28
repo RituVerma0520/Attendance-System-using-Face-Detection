@@ -16,7 +16,7 @@ This project involves building an attendance system which utilizes facial recogn
 
 	6)Feedback page
 	
-**Technology Used:** openCV (Opensource Computer Vision) -Python -tkinter GUI interface, deepface
+**Technology Used:** openCV (Opensource Computer Vision) -Python -tkinter GUI interface, deepface, MySQL for database
 
 *Sample dataset in used to detect the faces.*
 
@@ -47,6 +47,10 @@ DeepFace method reaches an accuracy of 97.35% ± 0.25% on Labeled Faces in the W
 
 	In this project it detects the emotion & generates a feedback score according to the *dominant emotion* of the student.
 	After this it generates graph based on the data stored in database between number of student & feedback score
+	
+**Database**
+
+I have created database  face_recognition to store data of student, queries & feedback of students in tables student, query & emotion respectively.
 	
 
 	
