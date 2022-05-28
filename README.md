@@ -24,7 +24,34 @@ This project involves building an attendance system which utilizes facial recogn
 
 **How does it work?**
 	
-	Run the main.py file which will open the homepage. From here we can travel to different section available. 
+*Face Recognition*
+
+A facial recognition software captures and compares patterns on a person’s face and analyses the details to identify and verify the individual. While the underlying system is complex, the whole technology can be broken down into three steps:
+
+Face Detection: An essential step is locating human faces in real-time
+Transform Data: Once captured, the analogue facial information is transformed into a set of data or vectors based on a person’s facial features
+Face Match: The system matches the data above with the one in the database for verification
+
+Face Recognition Algorithms -
+
+Haar Cascade
+LBPH (Local Binary Pattern Histogram)
+
+	In this project it takes sample of 100 photos to detect the face and marks the attendance with time in the excel sheet.
+	
+*Emotion Detection*
+
+For this I have used deepfae library.
+DeepFace is a deep learning facial recognition system created by a research group at Facebook. It identifies human faces in digital images
+DeepFace method reaches an accuracy of 97.35% ± 0.25% on Labeled Faces in the Wild (LFW) data set where human beings have 97.53%. This means that DeepFace is sometimes more successful than human beings.
+
+	In this project it detects the emotion & generates a feedback score according to the *dominant emotion* of the student.
+	After this it generates graph based on the data stored in database between number of student & feedback score
+	
+
+	
+
+
 	
 
 	
