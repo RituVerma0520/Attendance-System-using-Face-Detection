@@ -26,7 +26,7 @@ class Attendance:
         self.var_atten_attendance = StringVar()
 
         # BACKGROUNG IMAGE
-        img3=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\trainimg.png")
+        img3=Image.open(r"college_images\trainimg.png")
         img3=img3.resize((1530,710))
         self.photoimg3=ImageTk.PhotoImage(img3)
 
@@ -40,14 +40,14 @@ class Attendance:
         Left_frame=LabelFrame(bg_img,bd=2,relief=RIDGE,text="Student Attendance Details",font=("times new roman",15,"bold"))
         Left_frame.place(x=30,y=10,width=630,height=710) 
 
-        img_left=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\attendance.png")
+        img_left=Image.open(r"college_images\attendance.png")
         img_left=img_left.resize((620,150))
         self.photoimg_left=ImageTk.PhotoImage(img_left)
 
         f_lbl=Label(Left_frame,image=self.photoimg_left)
         f_lbl.place(x=3,y=0,width=620,height=150)
 
-        img1_left=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\att1.png")
+        img1_left=Image.open(r"college_images\att1.png")
         img1_left=img1_left.resize((620,280))
         self.photoimg1_left=ImageTk.PhotoImage(img1_left)
 
