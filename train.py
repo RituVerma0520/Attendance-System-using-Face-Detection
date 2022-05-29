@@ -16,7 +16,7 @@ class Train:
         title_lbl=Label(self.root,text="TRAIN DATA SET",font=("times new roman",40,"bold"),bg="navyblue",fg="white")
         title_lbl.place(x=0,y=0,width=1530,height=50)
 
-        img_top=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\trainbg.png")
+        img_top=Image.open(r"college_images\trainbg.png")
         img_top=img_top.resize((1530,680))
         self.photoimg_top=ImageTk.PhotoImage(img_top)
 
