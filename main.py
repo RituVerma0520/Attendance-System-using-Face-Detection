@@ -18,7 +18,7 @@ class Face_Recognition_System:
         self.root.title("Face Recognition System")
 
         # FIRST IMAGE
-        img1=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\college.jpg")
+        img1=Image.open(r"college_images\college.jpg")
         img1=img1.resize((450,100))
         self.photoimg1=ImageTk.PhotoImage(img1)
 
@@ -26,7 +26,7 @@ class Face_Recognition_System:
         f_lbl.place(x=20,y=0,width=450,height=100)
 
         # SECOND IMAGE
-        img2=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\college.jpg")
+        img2=Image.open(r"college_images\college.jpg")
         img2=img2.resize((450,100))
         self.photoimg2=ImageTk.PhotoImage(img2)
 
@@ -34,7 +34,7 @@ class Face_Recognition_System:
         f_lbl.place(x=450,y=0,width=450,height=100)
 
         # THIRD IMAGE
-        img3=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\college.jpg")
+        img3=Image.open(r"college_images\college.jpg")
         img3=img3.resize((450,100))
         self.photoimg3=ImageTk.PhotoImage(img3)
 
@@ -42,7 +42,7 @@ class Face_Recognition_System:
         f_lbl.place(x=900,y=0,width=450,height=100)
 
         # BACKGROUNG IMAGE
-        img4=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\trainimg.png")
+        img4=Image.open(r"college_images\trainimg.png")
         img4=img4.resize((1330,710))
         self.photoimg4=ImageTk.PhotoImage(img4)
 
@@ -54,7 +54,7 @@ class Face_Recognition_System:
 
 
         # STUDENT BUTTON
-        img4=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\student.png")
+        img4=Image.open(r"college_images\student.png")
         img4=img4.resize((180,180))
         self.photoimg4=ImageTk.PhotoImage(img4)
 
@@ -66,7 +66,7 @@ class Face_Recognition_System:
 
 
         # TRAIN DATA BUTTON
-        img5=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\traindata.png")
+        img5=Image.open(r"college_images\traindata.png")
         img5=img5.resize((180,180))
         self.photoimg5=ImageTk.PhotoImage(img5)
 
@@ -78,7 +78,7 @@ class Face_Recognition_System:
 
 
         # DETECT FACE BUTTON
-        img6=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\facedet.png")
+        img6=Image.open(r"college_images\facedet.png")
         img6=img6.resize((180,180))
         self.photoimg6=ImageTk.PhotoImage(img6)
 
@@ -90,7 +90,7 @@ class Face_Recognition_System:
 
 
         # ATTENDANCE BUTTON
-        img7=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\atten.png")
+        img7=Image.open(r"college_images\atten.png")
         img7=img7.resize((180,180))
         self.photoimg7=ImageTk.PhotoImage(img7)
 
@@ -102,7 +102,7 @@ class Face_Recognition_System:
 
 
         # PHOTOS BUTTON
-        img8=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\photos.png")
+        img8=Image.open(r"college_images\photos.png")
         img8=img8.resize((180,180))
         self.photoimg8=ImageTk.PhotoImage(img8)
 
@@ -114,7 +114,7 @@ class Face_Recognition_System:
 
 
         # QUERY BUTTON
-        img9=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\query.png")
+        img9=Image.open(r"college_images\query.png")
         img9=img9.resize((180,180))
         self.photoimg9=ImageTk.PhotoImage(img9)
 
@@ -126,7 +126,7 @@ class Face_Recognition_System:
 
 
         # FEEDBACK BUTTON    
-        img10=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\feedback.png")
+        img10=Image.open(r"college_images\feedback.png")
         img10=img10.resize((180,180))
         self.photoimg10=ImageTk.PhotoImage(img10)
 
@@ -138,7 +138,7 @@ class Face_Recognition_System:
 
 
         # EXIT BUTTON
-        img11=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\exit.png")
+        img11=Image.open(r"college_images\exit.png")
         img11=img11.resize((180,180))
         self.photoimg11=ImageTk.PhotoImage(img11)
 
