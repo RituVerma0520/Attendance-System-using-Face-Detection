@@ -18,7 +18,7 @@ class Face_Recognition:
         title_lbl=Label(self.root,text="FACE IDENTIFICATION",font=("times new roman",40,"bold"),bg="lightgrey",fg="blue")
         title_lbl.place(x=0,y=0,width=1400,height=50)
 
-        img_top=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\facerec.png")
+        img_top=Image.open(r"college_images\facerec.png")
         img_top=img_top.resize((1350,680))
         self.photoimg_top=ImageTk.PhotoImage(img_top)
 
