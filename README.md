@@ -22,6 +22,12 @@ This project involves building an attendance system which utilizes facial recogn
 
 ![user 12 26](https://user-images.githubusercontent.com/106318752/170840430-d393036a-4693-4625-89d0-92e7dcee3459.jpg)
 
+**How to run?**
+
+1) Clone the project in your computer
+2) install the libraries mentioned in requirements.txt
+3) Run main.py to start the project
+
 **How does it work?**
 	
 *Face Recognition*
