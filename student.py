@@ -29,7 +29,7 @@ class Student:
         self.var_Email=StringVar()
 
         # FIRST IMAGE
-        img=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\studentdet.png")
+        img=Image.open(r"college_images\studentdet.png")
         img=img.resize((450,100))
         self.photoimg=ImageTk.PhotoImage(img)
 
@@ -37,7 +37,7 @@ class Student:
         f_lbl.place(x=20,y=0,width=450,height=100)
 
         # SECOND IMAGE
-        img1=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\studentdet.png")
+        img1=Image.open(r"college_images\studentdet.png")
         img1=img1.resize((450,100))
         self.photoimg1=ImageTk.PhotoImage(img1)
 
@@ -45,7 +45,7 @@ class Student:
         f_lbl.place(x=450,y=0,width=450,height=100)
 
         # THIRD IMAGE
-        img2=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\studentdet.png")
+        img2=Image.open(r"college_images\studentdet.png")
         img2=img2.resize((450,100))
         self.photoimg2=ImageTk.PhotoImage(img2)
 
@@ -53,7 +53,7 @@ class Student:
         f_lbl.place(x=900,y=0,width=450,height=100)
 
         # BACKGROUNG IMAGE
-        img3=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\studentdet1.png")
+        img3=Image.open(r"college_images\studentdet1.png")
         img3=img3.resize((1330,710))
         self.photoimg3=ImageTk.PhotoImage(img3)
 
@@ -67,7 +67,7 @@ class Student:
         Left_frame=LabelFrame(bg_img,bd=2,relief=RIDGE,text="Student Details",font=("times new roman",14,"bold"))
         Left_frame.place(x=5,y=45,width=630,height=790) 
 
-        img_left=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\studentdet1.png")
+        img_left=Image.open(r"college_images\studentdet1.png")
         img_left=img_left.resize((620,100))
         self.photoimg_left=ImageTk.PhotoImage(img_left)
 
