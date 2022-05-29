@@ -48,6 +48,18 @@ I have created database  face_recognition to store data of student, queries & fe
 	Username-root
 	Password-Test@123
 	
+	To access the database:
+	
+	restore facerecog.sql file using Command:
+	
+	mysql -u root -p face_recognition<C:\facerecog.sql
+	
+	in the path directory: C:\Program Files\MySQL\MySQL Server 8.0\bin
+	
+	(Run this command on command prompt as admin)
+	(Make sure you have downloaded MySQL in your computer) 
+	------------------------OR-----------------------
+	
 	**Commands to create database and tables**
 	create database face_recognition;
 	use face_recognition;
