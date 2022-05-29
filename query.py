@@ -23,7 +23,7 @@ class Query:
         title_lbl=Label(self.root,text="Ask Your Doubt",font=("times new roman",38,"bold"),bg="navyblue",fg="white")
         title_lbl.place(x=0,y=0,width=1530,height=50)
 
-        img=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\lightblue.png")
+        img=Image.open(r"college_images\lightblue.png")
         img=img.resize((1530,790))
         self.photoimg_top=ImageTk.PhotoImage(img)
 
