@@ -50,6 +50,7 @@ I have created database  face_recognition to store data of student, queries & fe
 	
 	To access the database:
 	
+	first create database name face_recognition
 	restore facerecog.sql file using Command:
 	
 	mysql -u root -p face_recognition<C:\facerecog.sql
