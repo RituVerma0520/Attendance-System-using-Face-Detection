@@ -21,14 +21,14 @@ class Emotion:
         title_lbl=Label(self.root,text="FEEDBACK",font=("times new roman",38,"bold"),bg="navyblue",fg="white")
         title_lbl.place(x=0,y=0,width=1530,height=55)
 
-        img=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\feedbackbg.png")
+        img=Image.open(r"college_images\feedbackbg.png")
         img=img.resize((1300,300))
         self.photoimg_top=ImageTk.PhotoImage(img)
 
         bg_img=Label(self.root,image=self.photoimg_top)
         bg_img.place(x=20,y=55,width=1300,height=300)
 
-        img1=Image.open(r"C:\Users\dell\OneDrive\Desktop\Face Recognition\college_images\fb.png")
+        img1=Image.open(r"college_images\fb.png")
         img1=img1.resize((1300,300))
         self.photoimg1_top=ImageTk.PhotoImage(img1)
 
@@ -126,9 +126,9 @@ class Emotion:
         camera = cv2.VideoCapture(0, cv2.CAP_DSHOW)
         return_value, image = camera.read()
         if return_value:
-            cv2.imwrite(r'C:\Users\dell\OneDrive\Desktop\Face Recognition\Face Recognition\opencv.jpg', image)
+            cv2.imwrite(r'opencv.jpg', image)
             del(camera)
-            img1=cv2.imread(r'C:\Users\dell\OneDrive\Desktop\Face Recognition\Face Recognition\opencv.jpg')
+            img1=cv2.imread(r'opencv.jpg')
 
             try:
                 result=DeepFace.analyze(img1,actions=['emotion'])
